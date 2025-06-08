@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.25.0">
+<file name="C:\Users\sahil\IdeaProjects\LocalCheckstyle\my-app\src\main\java\com\example\app\MyApp.java">
+<error line="10" column="5" severity="error" message="Variable &apos;unannotatedField&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="13" column="5" severity="error" message="Variable &apos;requiredField&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="25" column="18" severity="error" message="Parameter &apos;param1&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="25" column="31" severity="error" message="Parameter &apos;unknown&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="25" column="33" severity="error" message="Parameter &apos;param2&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="32" column="18" severity="error" message="Parameter &apos;paramA&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="32" column="40" severity="error" message="Parameter &apos;unknown&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="32" column="65" severity="error" message="Parameter &apos;unknown&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="39" column="5" severity="error" message="Method &apos;calculateSomething&apos; return type should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="39" column="38" severity="error" message="Parameter &apos;input&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="41" column="9" severity="error" message="Variable &apos;result&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="46" column="5" severity="error" message="Method &apos;getFormattedOutput&apos; return type should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+<error line="49" column="9" severity="error" message="Variable &apos;output&apos; should be annotated with @NonNull or @Nullable." source="com.example.customrules.NonNullNullableCheck"/>
+</file>
+</checkstyle>
